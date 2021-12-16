@@ -3,58 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
+    <title>php-badwords</title>
+    <link rel="stylesheet" href="./css/main.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>php-badwords</title>
-    <style>
-        *,
-        *::before,
-        *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html,
-        body {
-            width: 100%;
-            height: 100%;
-            font-family: "Inter UI", sans-serif;
-        }
-
-        .container {
-            margin: 0 auto;
-            max-width: 1200px;
-        }
-
-        .title {
-            padding: 2rem;
-            color: #222222;
-            font-size: 2rem;
-            line-height: 2.5rem;
-        }
-
-        .paragraph {
-            color: #333333;
-            padding: 0 2rem;
-            font-size: 1rem;
-            line-height: 1.5rem;
-            letter-spacing: .02rem;
-        }
-
-        .count {
-            width: 100%;
-            display: flex;
-            color: #757575;
-            padding: 2rem 2rem;
-            font-size: 0.875rem;
-            justify-content: flex-end;
-        }
-
-        .marker {
-            font-weight: 600;
-        }
-    </style>
 </head>
 
 <body>
